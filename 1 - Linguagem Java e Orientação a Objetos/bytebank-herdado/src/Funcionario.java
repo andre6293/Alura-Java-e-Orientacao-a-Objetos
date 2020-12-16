@@ -1,4 +1,4 @@
-public class Funcionario {
+public abstract class Funcionario {
 
     private String nome;
     private String cpf;
@@ -14,10 +14,8 @@ public class Funcionario {
 
 
     // METHODS
-    public double getBonificacao() {
-        return this.salario * 0.05;
-    }
-
+    public abstract double getBonificacao();
+    
     // GETTERS and SETTERS 
     public String getNome() {
         return nome;

@@ -11,7 +11,7 @@ public class TesteGerente {
 
         g1.setSenha(2222);
 
-        boolean autenticou = g1.autentica(2222);
+        boolean autenticou = g1.autenticar(2222);
 
         System.out.println("Autenticou: " + autenticou);
 
