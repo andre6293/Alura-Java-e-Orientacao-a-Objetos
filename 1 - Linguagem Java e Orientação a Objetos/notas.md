@@ -21,5 +21,14 @@ E uma classe que só é usada como super classe. Não é possível criar um obje
 ## Método abstrato em uma super classe
 Só se pode fazer métodos abstratos em classes abstratas. Ao criar uma classe filha será OBRIGATÓRIO implementar o método abstrato da classe mãe.
 
+## Heranças múltiplas
+Não é possível fazer no java, porém em linguagens como Python e C++ sim. Situações em que a herança múltipla seja necessária, deve-se solucionar com interfaces.
+
+## Uso de interface x extensão de classes
+Para o uso de interface deve-se usar a palavra chave implements em vez de extends (usada somente para classes filhas).
+
+Notas:
+As interfaces não podem ter métodos concretos, nisso elas se diferem das classes abstratas que podem sim ter esse tipo de método.
+
 ---
 Andre Pinto

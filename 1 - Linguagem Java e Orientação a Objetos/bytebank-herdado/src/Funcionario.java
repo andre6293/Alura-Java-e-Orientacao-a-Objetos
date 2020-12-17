@@ -10,7 +10,7 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
-    public Funcionario(){};
+    public Funcionario(){}
 
 
     // METHODS

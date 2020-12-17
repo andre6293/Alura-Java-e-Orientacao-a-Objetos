@@ -5,8 +5,8 @@
 #### Módulo 1 - Linguagem Java e Orientação a Objetos:
   * Instalação e familizarização ao ambiente Eclipse ([Curso](https://cursos.alura.com.br/course/java-primeiros-passos) | [Certificado](https://cursos.alura.com.br/certificate/c20c5cb3-90e3-4b0f-a7cc-22f395838379))
   * Introdução à orientação a objetos ([Curso](https://cursos.alura.com.br/course/java-introducao-orientacao-objetos) | [Certificado](https://cursos.alura.com.br/certificate/9dd0c449-c1d8-4902-80cd-565b20f05879))
-  * Polimorfismo: heranças e interfaces ([Curso](https://cursos.alura.com.br/course/java-heranca-interfaces-polimorfismo) | [Certificado](URL))
-  * Criação, lançamento e controle de exceções ([Curso](https://cursos.alura.com.br/course/java-excecoes) | a fazer)
+  * Polimorfismo: heranças e interfaces ([Curso](https://cursos.alura.com.br/course/java-heranca-interfaces-polimorfismo) | [Certificado](https://cursos.alura.com.br/certificate/87e7442a-fa6c-436d-9145-e661268b4595))
+  * Criação, lançamento e controle de exceções ([Curso](https://cursos.alura.com.br/course/java-excecoes) | **em curso**)
 
 #### Módulo 2 - Principais bibliotecas:
   * Java.lang: classes Object e String ([Curso](https://cursos.alura.com.br/course/java-pacotes-e-java-lang) | a fazer)
