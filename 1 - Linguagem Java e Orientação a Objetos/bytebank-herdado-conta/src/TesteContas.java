@@ -1,5 +1,12 @@
 public class TesteContas {
     public static void main(String[] args) {
+
+        int a = 3;
+        int b = a / 0;
+
+        ContaCorrente outra = null;
+        outra.depositar(200);
+
         ContaCorrente cc = new ContaCorrente(111, 111);
         cc.depositar(100.0);
 
