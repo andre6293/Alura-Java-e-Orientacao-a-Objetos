@@ -51,7 +51,7 @@ Para o uso de interface deve-se usar a palavra chave implements em vez de extend
 ### Try-with-resources
 O bloco *finally* é criado automaticamente e nele é chamado o método close().
 
-### Notas adicionais:
+### Notas adicionais
 * As interfaces não podem ter métodos concretos, nisso elas diferem das classes abstratas que podem sim ter esse tipo de método.
 
 ---
@@ -66,9 +66,9 @@ Ocorre quando não é colocada nenhuma palavra chave (private, public ou protect
 ### java.lang.String
 Strings são imutáveis em Java. Existe diferença entre a criação com new e a criação com aspas duplas. Usar aspas duplas é boa prática pois a JVM pode executar várias otimizações por *baixo dos panos*.
 
-### Notas adicionais:
+### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
-* nota 2
+
 
 ---
 Andre Pinto
