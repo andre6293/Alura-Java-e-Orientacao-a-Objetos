@@ -9,8 +9,8 @@
   * Criação, lançamento e controle de exceções ([Curso](https://cursos.alura.com.br/course/java-excecoes) | [Certificado](https://cursos.alura.com.br/certificate/afc8b052-8dae-44c5-826f-e7b8ced7abee))
 
 #### Módulo 2 - Principais bibliotecas:
-  * Java.lang: classes Object e String ([Curso](https://cursos.alura.com.br/course/java-pacotes-e-java-lang) | **em curso**)
-  * Java.util: Coleções, wrappers e expressões lambda ([Curso](https://cursos.alura.com.br/course/java-util-lambdas) | a fazer)
+  * Java.lang: classes Object e String ([Curso](https://cursos.alura.com.br/course/java-pacotes-e-java-lang) | ([Certificado](https://cursos.alura.com.br/certificate/1f7fff9d-cfd0-4dbf-a08a-34f841323489)
+  * Java.util: Coleções, wrappers e expressões lambda ([Curso](https://cursos.alura.com.br/course/java-util-lambdas) | **em curso**)
   * Java.io: streams, reader e writers ([Curso](https://cursos.alura.com.br/course/java-trabalhando-com-io) | a fazer)
   * Collections: listas, sets e mapas ([Curso](https://cursos.alura.com.br/course/java-collections) | a fazer)
 

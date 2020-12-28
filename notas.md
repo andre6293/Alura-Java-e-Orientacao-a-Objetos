@@ -12,11 +12,13 @@
   * [Heranças múltiplas](#heran-as-m-ltiplas)
   * [Uso de interface x extensão de classes](#uso-de-interface-x-extens-o-de-classes)
   * [Try-with-resources](#try-with-resources)
-    + [Notas adicionais:](#notas-adicionais-)
+  * [Notas adicionais:](#notas-adicionais-)
 - [Módulo 2 - Principais bibliotecas](#m-dulo-2---principais-bibliotecas)
-- [Modificador de visibilidade *"package private"*](#modificador-de-visibilidade---package-private--)
-- [Javadoc](#javadoc)
-    + [Notas adicionais:](#notas-adicionais--1)
+  * [Modificador de visibilidade *"package private"*](#modificador-de-visibilidade---package-private--)
+  * [Javadoc](#javadoc)
+  * [Notas adicionais:](#notas-adicionais--1)
+
+---
 
 ## Módulo 1 - Linguagem Java e Orientação a Objetos
 ### protected
@@ -49,20 +51,23 @@ Para o uso de interface deve-se usar a palavra chave implements em vez de extend
 ### Try-with-resources
 O bloco *finally* é criado automaticamente e nele é chamado o método close().
 
-#### Notas adicionais:
+### Notas adicionais:
 * As interfaces não podem ter métodos concretos, nisso elas diferem das classes abstratas que podem sim ter esse tipo de método.
 
 ---
 
 ## Módulo 2 - Principais bibliotecas
-## Modificador de visibilidade *"package private"*
+### Modificador de visibilidade *"package private"*
 Ocorre quando não é colocada nenhuma palavra chave (private, public ou protected) antes da declaração de uma classe ou método. Na prática fica implícito que a classe/método será visível para outros arquivos que pertençam ao mesmo pacote, mas não fora dele.
 
-## Javadoc
+### Javadoc
 É possível documentar o projeto com o uso de anotações /** e @ (@author, por exemplo) e depois exportar para o uso de outros programadores.
 
-#### Notas adicionais:
-* nota 1
+### java.lang.String
+Strings são imutáveis em Java. Existe diferença entre a criação com new e a criação com aspas duplas. Usar aspas duplas é boa prática pois a JVM pode executar várias otimizações por *baixo dos panos*.
+
+### Notas adicionais:
+* toda e qualquer classe herda a super-classe Object
 * nota 2
 
 ---
