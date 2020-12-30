@@ -12,11 +12,11 @@
   * [Heranças múltiplas](#heran-as-m-ltiplas)
   * [Uso de interface x extensão de classes](#uso-de-interface-x-extens-o-de-classes)
   * [Try-with-resources](#try-with-resources)
-  * [Notas adicionais:](#notas-adicionais-)
+  * [Notas adicionais](#notas-adicionais-)
 - [Módulo 2 - Principais bibliotecas](#m-dulo-2---principais-bibliotecas)
   * [Modificador de visibilidade *"package private"*](#modificador-de-visibilidade---package-private--)
   * [Javadoc](#javadoc)
-  * [Notas adicionais:](#notas-adicionais--1)
+  * [Notas adicionais](#notas-adicionais--1)
 
 ---
 
