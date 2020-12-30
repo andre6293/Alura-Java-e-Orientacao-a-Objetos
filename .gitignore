@@ -1,8 +1,0 @@
-*.del
-*.iml
-*.xml
-out/
-.idea/
-.classpath
-.project
-*/.settings
