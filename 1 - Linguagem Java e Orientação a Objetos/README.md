@@ -36,4 +36,4 @@
 * Finally e try with resources
 
 ---
-Andre Pinto
+Andre Pinto (dez. 20)

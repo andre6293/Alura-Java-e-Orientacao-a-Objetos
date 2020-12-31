@@ -10,8 +10,8 @@
 
 #### Módulo 2 - Principais bibliotecas:
   * Java.lang: classes Object e String ([Curso](https://cursos.alura.com.br/course/java-pacotes-e-java-lang) | [Certificado](https://cursos.alura.com.br/certificate/1f7fff9d-cfd0-4dbf-a08a-34f841323489))
-  * Java.util: Coleções, wrappers e expressões lambda ([Curso](https://cursos.alura.com.br/course/java-util-lambdas) | **em curso**)
-  * Java.io: streams, reader e writers ([Curso](https://cursos.alura.com.br/course/java-trabalhando-com-io) | a fazer)
+  * Java.util: Coleções, wrappers e expressões lambda ([Curso](https://cursos.alura.com.br/course/java-util-lambdas) | [Certificado](https://cursos.alura.com.br/certificate/9e0ac6c4-aaba-4900-bad0-084fb2d659b1))
+  * Java.io: streams, reader e writers ([Curso](https://cursos.alura.com.br/course/java-trabalhando-com-io) | **em curso**)
   * Collections: listas, sets e mapas ([Curso](https://cursos.alura.com.br/course/java-collections) | a fazer)
 
 #### Módulo 3 - Java moderno e TDD:
