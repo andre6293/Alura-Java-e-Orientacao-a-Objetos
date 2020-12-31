@@ -1,9 +1,9 @@
 package br.com.bytebank.banco.test;
 
 import br.com.bytebank.banco.modelo.Cliente;
-import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
+//import br.com.bytebank.banco.modelo.Conta;
 
 public class TesteArrayReferencias {
 
@@ -28,7 +28,5 @@ public class TesteArrayReferencias {
         System.out.println(referencias[3]);
 
         ContaPoupanca ref = (ContaPoupanca) referencias[3]; //type cast
-
-
     }
 }

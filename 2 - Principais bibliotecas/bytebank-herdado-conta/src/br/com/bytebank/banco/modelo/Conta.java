@@ -92,6 +92,16 @@ public abstract  class Conta {
 
     @Override
     public String toString() {
-        return "Número: " + this.getNumero() + "\nAgência: " + this.getAgencia() + "\n";
+        return "Número: " + this.getNumero() + "\nAgência: " + this.getAgencia();
+    }
+
+    @Override
+    public boolean equals(Object cc3) {
+        Conta ref = (Conta) cc3;
+        if(this.getAgencia() != ref.getAgencia()) {
+            return false;
+        }
+
+        return this.numero == ref.getNumero();
     }
 }

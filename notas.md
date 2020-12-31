@@ -68,6 +68,7 @@ Strings são imutáveis em Java. Existe diferença entre a criação com new e a
 
 ### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
+* O método .contains() usa internamente o método .equals(). Dessa forma sobrescrevendo a implementação da segunda, altera-se o comportamento da primeira.
 
 
 ---
