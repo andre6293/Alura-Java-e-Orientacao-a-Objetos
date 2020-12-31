@@ -13,6 +13,6 @@ public class ContaPoupanca extends Conta {
 
     @Override
     public String toString() {
-        return "Conta poupança\n" + super.toString();
+        return "Tipo: CP, " + super.toString();
     }
 }

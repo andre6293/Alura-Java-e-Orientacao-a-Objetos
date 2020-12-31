@@ -66,6 +66,13 @@ Ocorre quando não é colocada nenhuma palavra chave (private, public ou protect
 ### java.lang.String
 Strings são imutáveis em Java. Existe diferença entre a criação com new e a criação com aspas duplas. Usar aspas duplas é boa prática pois a JVM pode executar várias otimizações por *baixo dos panos*.
 
+### ArrayList
+Espera um objeto em sua entrada, caso seja apontado um tipo primitivo, *por baixo dos panos*, ele será convertido a uma classe relativa a ele (wrapper). 
+Por exemplo: um int será convertido em um objeto do tipo Integer. O chamado Autoboxing. O procedimento invertido se chama Unboxing.
+
+### Function Objects
+São objetos que criamos para encapsular uma função ou método. As classes anônimas facilitam a criação desses objetos.
+
 ### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
 * O método .contains() usa internamente o método .equals(). Dessa forma sobrescrevendo a implementação da segunda, altera-se o comportamento da primeira.

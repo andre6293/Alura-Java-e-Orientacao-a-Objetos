@@ -24,6 +24,6 @@ public class ContaCorrente extends Conta implements Tributavel{
 
     @Override
     public String toString() {
-        return "Conta corrente\n" + super.toString();
+        return "Tipo: CC, " + super.toString();
     }
 }
