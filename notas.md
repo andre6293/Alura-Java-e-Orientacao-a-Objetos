@@ -12,11 +12,14 @@
   * [Heranças múltiplas](#heran-as-m-ltiplas)
   * [Uso de interface x extensão de classes](#uso-de-interface-x-extens-o-de-classes)
   * [Try-with-resources](#try-with-resources)
-  * [Notas adicionais](#notas-adicionais-)
+  * [Notas adicionais](#notas-adicionais)
 - [Módulo 2 - Principais bibliotecas](#m-dulo-2---principais-bibliotecas)
   * [Modificador de visibilidade *"package private"*](#modificador-de-visibilidade---package-private--)
   * [Javadoc](#javadoc)
-  * [Notas adicionais](#notas-adicionais--1)
+  * [java.lang.String](#javalangstring)
+  * [ArrayList](#arraylist)
+  * [Function Objects](#function-objects)
+  * [Notas adicionais](#notas-adicionais-1)
 
 ---
 
@@ -72,6 +75,12 @@ Por exemplo: um int será convertido em um objeto do tipo Integer. O chamado Aut
 
 ### Function Objects
 São objetos que criamos para encapsular uma função ou método. As classes anônimas facilitam a criação desses objetos.
+
+### PrintStream/PrintWriter x OutputStream
+Os OutputStreams lidam com bytes em vez de caracteres. É preferencial utilizar os Writers para escrever dados de caracteres. No caso de diferentes tipos e/ou binários é melhor utilizar OutputStream.
+
+### Serialização
+Sempre funciona em cascata, mas há a possibilidade de usar a palavra chave transient para "fugir" da serialização de um determinado atributo.
 
 ### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
