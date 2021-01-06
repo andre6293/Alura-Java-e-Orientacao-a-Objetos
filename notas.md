@@ -83,6 +83,9 @@ Os OutputStreams lidam com bytes em vez de caracteres. É preferencial utilizar 
 ### Serialização
 Sempre funciona em cascata, mas há a possibilidade de usar a palavra chave transient para "fugir" da serialização de um determinado atributo.
 
+### Implementação de um objeto
+Em vez de declararmos a referência a uma ArrayList<Aula> (ou LinkedList<Aula>), o ideal é deixarmos mais genérico, utilizando a interface List. Não há motivo para ser super específico na inst)ncia utilizada. Declarando-se apenas como List, é possível alterar a implementação depois, como para uma LinkedList, sem problema algum de compilação.
+
 ### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
 * O método .contains() usa internamente o método .equals(). Dessa forma sobrescrevendo a implementação da segunda, altera-se o comportamento da primeira.
