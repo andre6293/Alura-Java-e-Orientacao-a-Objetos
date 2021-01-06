@@ -19,8 +19,13 @@
   * [java.lang.String](#javalangstring)
   * [ArrayList](#arraylist)
   * [Function Objects](#function-objects)
+  * [PrintStream/PrintWriter x OutputStream](#printstream-printwriter-x-outputstream)
+  * [Serialização](#serializa--o)
+  * [Implementação de um objeto](#implementa--o-de-um-objeto)
+  * [List vs Set](#lists-vs-sets)
+  * [Collections vs Collection](#collections-vs-collection)
+  * [Sets](#sets)
   * [Notas adicionais](#notas-adicionais-1)
-
 ---
 
 ## Módulo 1 - Linguagem Java e Orientação a Objetos
@@ -81,15 +86,25 @@ São objetos que criamos para encapsular uma função ou método. As classes an�
 Os OutputStreams lidam com bytes em vez de caracteres. É preferencial utilizar os Writers para escrever dados de caracteres. No caso de diferentes tipos e/ou binários é melhor utilizar OutputStream.
 
 ### Serialização
-Sempre funciona em cascata, mas há a possibilidade de usar a palavra chave transient para "fugir" da serialização de um determinado atributo.
+Sempre funciona em cascata, mas há a possibilidade de usar a palavra chave transient para evitar da serialização de um determinado atributo.
 
 ### Implementação de um objeto
 Em vez de declararmos a referência a uma ArrayList<Aula> (ou LinkedList<Aula>), o ideal é deixarmos mais genérico, utilizando a interface List. Não há motivo para ser super específico na inst)ncia utilizada. Declarando-se apenas como List, é possível alterar a implementação depois, como para uma LinkedList, sem problema algum de compilação.
 
+### List vs Set
+Listas são indexáveis, possuem ordem e permitem itens duplicados. Sets são mais rápidos, para tarefas como busca, adição e remoção de itens, por usarem hashset (tabela de espalhamento).
+
+### Collections vs Collection
+Collections é uma classe utilitária que possui métodos auxiliares estáticos para trabalhar com coleções e arrays. *Ex.: Collections.sort(arrayExemplo)*
+Collection é a interface que é estendida pelas classes List e Set.
+
+### Sets
+Ao utilizar a classe Set além de sobrescrever o método .equals(), também é necessário reescrever o método .hashCode() por ser a forma interna de comparação para a classe Set.
+
 ### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
 * O método .contains() usa internamente o método .equals(). Dessa forma sobrescrevendo a implementação da segunda, altera-se o comportamento da primeira.
-
+* Ao usar o método .cointains() em uma **List** internamente serão feitas comparações utilizando o método .equals() do generic.
 
 ---
 Andre Pinto

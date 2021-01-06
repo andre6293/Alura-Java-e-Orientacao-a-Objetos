@@ -14,5 +14,5 @@ public class TestaCurso {
         javaColecoes.adiciona(new Aula("Modelando com coleções", 22));
 
         System.out.println(javaColecoes.getAulas());
-g    }
+    }
 }
