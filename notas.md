@@ -56,6 +56,7 @@ O bloco *finally* é criado automaticamente e nele é chamado o método close().
 
 ### Notas adicionais
 * As interfaces não podem ter métodos concretos, nisso elas diferem das classes abstratas que podem sim ter esse tipo de método.
+* O polimorfismo garante baixo acomplamento.
 
 ---
 
