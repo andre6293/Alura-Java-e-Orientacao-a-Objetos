@@ -110,6 +110,9 @@ Diferentemente do HashSet mantém a ordem de inserção, porém continua não-in
 ### TreeSet
 Só funciona para classes que extendam a interface Comparable. Em caso de se estar trabalhando com uma classe que não pode ser alterada é possível inserir no contrutor do TreeSet um objeto que implementa Comparator. Dessa forma o critério de comparação pode ser criado em separado da classe na qual opera
 
+## Hashmap
+Guarda uma key e um value. Funciona similarmente aos dictionaries do Python. Usa tabela de espalhamento internamente, dessa forma consegue fazer pesquisas mais rapidamente em relação a outras listas. 
+
 ### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
 * O método .contains() usa internamente o método .equals(). Dessa forma sobrescrevendo a implementação da segunda, altera-se o comportamento da primeira.

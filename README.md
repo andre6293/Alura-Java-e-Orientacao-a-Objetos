@@ -11,10 +11,10 @@
   * Java.lang: classes Object e String ([Curso](https://cursos.alura.com.br/course/java-pacotes-e-java-lang) | [Certificado](https://cursos.alura.com.br/certificate/1f7fff9d-cfd0-4dbf-a08a-34f841323489))
   * Java.util: Coleções, wrappers e expressões lambda ([Curso](https://cursos.alura.com.br/course/java-util-lambdas) | [Certificado](https://cursos.alura.com.br/certificate/9e0ac6c4-aaba-4900-bad0-084fb2d659b1))
   * Java.io: streams, reader e writers ([Curso](https://cursos.alura.com.br/course/java-trabalhando-com-io) | [Certificado](https://cursos.alura.com.br/certificate/75fc0bb4-54bf-4af7-b855-d57e061c8411))
-  * Collections: listas, sets e mapas ([Curso](https://cursos.alura.com.br/course/java-collections) | **em curso**)
+  * Collections: listas, sets e mapas ([Curso](https://cursos.alura.com.br/course/java-collections) | ([Certificado](https://cursos.alura.com.br/certificate/2e441bca-c7bf-48fb-9e45-ef704139e771))
 
 ### Módulo 3 - Java moderno e TDD
-  * Recursos do Java 8 ([Curso](https://cursos.alura.com.br/course/java8-lambdas) | a fazer)
+  * Recursos do Java 8 ([Curso](https://cursos.alura.com.br/course/java8-lambdas) | **em curso**)
   * TDD com JUnit ([Curso](https://cursos.alura.com.br/course/tdd) | a fazer)
 
 ---

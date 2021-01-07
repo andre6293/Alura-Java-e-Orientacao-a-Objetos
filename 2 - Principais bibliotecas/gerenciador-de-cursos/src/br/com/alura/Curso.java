@@ -7,7 +7,8 @@ public class Curso {
     private String nome;
     private String instrutor;
     private List<Aula> aulas = new ArrayList<>(); //É uma boa prática gerar objetos com o tipo mais abrangente
-    private Set<Aluno> alunos = new LinkedHashSet<>();
+    private Set<Aluno> alunos = new HashSet<>();
+    private Map<Integer, Aluno> matriculaPorAluno = new HashMap<>();
 
     public Curso(String nome, String instrutor) {
         this.nome = nome;
@@ -50,8 +51,9 @@ public class Curso {
                 + this.getTempoTotal() + " minutos, Aulas: " + this.getAulas();
     }
 
-    public void matricular(Aluno a1) {
-        this.alunos.add(a1);
+    public void matricular(Aluno aluno) {
+        this.alunos.add(aluno);
+        this.matriculaPorAluno.put(aluno.getNumeroMatricula(), aluno);
     }
 
     public boolean estaMatriculado(Aluno aluno) {
@@ -64,5 +66,12 @@ public class Curso {
                 return true;
         }
         return false;
+    }
+
+    public Aluno buscaMatriculado(int numero) {
+        if(!matriculaPorAluno.containsKey(numero)) {
+            throw new NoSuchElementException("Matrícula " + numero + " não encontrada.");
+        }
+        return matriculaPorAluno.get(numero);
     }
 }

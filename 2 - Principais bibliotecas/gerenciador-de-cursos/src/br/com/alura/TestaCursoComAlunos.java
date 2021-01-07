@@ -44,7 +44,7 @@ public class TestaCursoComAlunos {
 //        Acima o método antigo (anterior ao Java 5)
 // ---------------------
 
-//        Vector<Aluno> vetor = new Vector<>(); // threadsafe, mas o uso não é recomendado
+        Vector<Aluno> vetor = new Vector<>(); // threadsafe, mas o uso não é recomendado
 
         System.out.println("O(a) aluno(a) " + a1.getNome() + " está matriculado: " + javaColecoes.estaMatriculado(a1));
 
