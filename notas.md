@@ -110,13 +110,29 @@ Diferentemente do HashSet mantém a ordem de inserção, porém continua não-in
 ### TreeSet
 Só funciona para classes que extendam a interface Comparable. Em caso de se estar trabalhando com uma classe que não pode ser alterada é possível inserir no contrutor do TreeSet um objeto que implementa Comparator. Dessa forma o critério de comparação pode ser criado em separado da classe na qual opera
 
-## Hashmap
+### Hashmap
 Guarda uma key e um value. Funciona similarmente aos dictionaries do Python. Usa tabela de espalhamento internamente, dessa forma consegue fazer pesquisas mais rapidamente em relação a outras listas. 
 
 ### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
 * O método .contains() usa internamente o método .equals(). Dessa forma sobrescrevendo a implementação da segunda, altera-se o comportamento da primeira.
 * Ao usar o método .cointains() em uma **List** internamente serão feitas comparações utilizando o método .equals() do generic.
+
+---
+
+## Módulo 3 - Java Moderno e TDD
+### Default Methods
+O modificador default permite que se adicione métodos a uma interface sem o risco de perder compatibilidade com versões anteriores. A implementação do método default da interface é usada caso a classe concreta não o implemente.
+
+### Method References
+Para os casos em que uma expressão lambda apenas chama um método existente, é possível referenciar esse método direto pelo nome. <br>
+Ex.: em vez de:<br>
+`(s1, s2) -> s1.length().compare(s2.length)`<br>
+Poderia-se usar:<br>
+`(s1, s2) -> String::lenght`
+
+### Notas adicionais
+* 
 
 ---
 Andre Pinto
