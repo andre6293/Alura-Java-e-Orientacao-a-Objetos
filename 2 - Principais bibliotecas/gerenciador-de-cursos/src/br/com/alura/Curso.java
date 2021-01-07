@@ -7,7 +7,7 @@ public class Curso {
     private String nome;
     private String instrutor;
     private List<Aula> aulas = new ArrayList<>(); //É uma boa prática gerar objetos com o tipo mais abrangente
-    private Set<Aluno> alunos = new HashSet<>();
+    private Set<Aluno> alunos = new LinkedHashSet<>();
 
     public Curso(String nome, String instrutor) {
         this.nome = nome;

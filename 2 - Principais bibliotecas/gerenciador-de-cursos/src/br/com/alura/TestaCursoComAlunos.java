@@ -1,6 +1,8 @@
 package br.com.alura;
 
+import java.util.Iterator;
 import java.util.Set;
+import java.util.Vector;
 
 public class TestaCursoComAlunos {
 
@@ -22,6 +24,27 @@ public class TestaCursoComAlunos {
 
         System.out.println("Todos os alunos matriculados: ");
         javaColecoes.getAlunos().forEach(System.out::println);
+
+
+// ---------------------
+
+        for (Aluno aluno : javaColecoes.getAlunos()) {
+            System.out.println(aluno);
+        }
+//        Acima a melhor forma antes do Java 8, não era possível antes do Java 5 (2004),
+//        sendo necessário o uso de um iterator para exibir os itens de um Set
+// ---------------------
+
+        Set<Aluno> alunos = javaColecoes.getAlunos();
+        Iterator<Aluno> iterator = alunos.iterator();
+
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+//        Acima o método antigo (anterior ao Java 5)
+// ---------------------
+
+//        Vector<Aluno> vetor = new Vector<>(); // threadsafe, mas o uso não é recomendado
 
         System.out.println("O(a) aluno(a) " + a1.getNome() + " está matriculado: " + javaColecoes.estaMatriculado(a1));
 

@@ -22,10 +22,13 @@
   * [PrintStream/PrintWriter x OutputStream](#printstream-printwriter-x-outputstream)
   * [Serialização](#serializa--o)
   * [Implementação de um objeto](#implementa--o-de-um-objeto)
-  * [List vs Set](#lists-vs-sets)
+  * [List vs Set](#list-vs-set)
   * [Collections vs Collection](#collections-vs-collection)
   * [Sets](#sets)
+  * [LinkedHashSet](#linkedhashset)
+  * [TreeSet](#treeset)
   * [Notas adicionais](#notas-adicionais-1)
+
 ---
 
 ## Módulo 1 - Linguagem Java e Orientação a Objetos
@@ -100,6 +103,12 @@ Collection é a interface que é estendida pelas classes List e Set.
 
 ### Sets
 Ao utilizar a classe Set além de sobrescrever o método .equals(), também é necessário reescrever o método .hashCode() por ser a forma interna de comparação para a classe Set.
+
+### LinkedHashSet
+Diferentemente do HashSet mantém a ordem de inserção, porém continua não-indexado
+
+### TreeSet
+Só funciona para classes que extendam a interface Comparable. Em caso de se estar trabalhando com uma classe que não pode ser alterada é possível inserir no contrutor do TreeSet um objeto que implementa Comparator. Dessa forma o critério de comparação pode ser criado em separado da classe na qual opera
 
 ### Notas adicionais
 * toda e qualquer classe herda a super-classe Object
