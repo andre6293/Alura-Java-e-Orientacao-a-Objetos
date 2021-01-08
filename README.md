@@ -13,7 +13,7 @@
   * Java.io: streams, reader e writers ([Curso](https://cursos.alura.com.br/course/java-trabalhando-com-io) | [Certificado](https://cursos.alura.com.br/certificate/75fc0bb4-54bf-4af7-b855-d57e061c8411))
   * Collections: listas, sets e mapas ([Curso](https://cursos.alura.com.br/course/java-collections) | [Certificado](https://cursos.alura.com.br/certificate/2e441bca-c7bf-48fb-9e45-ef704139e771))
 
-### Módulo 3 - Java moderno e TDD
+### [Módulo 3 - Java moderno e TDD](https://github.com/andre6293/Alura-Java-e-Orientacao-a-Objetos/tree/main/3%20-%20Java%20moderno%20e%20TDD)
   * Recursos do Java 8 ([Curso](https://cursos.alura.com.br/course/java8-lambdas) | **em curso**)
   * TDD com JUnit ([Curso](https://cursos.alura.com.br/course/tdd) | a fazer)
 

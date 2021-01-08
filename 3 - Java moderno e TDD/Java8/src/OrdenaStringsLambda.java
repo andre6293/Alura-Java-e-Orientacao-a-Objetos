@@ -21,7 +21,7 @@ public class OrdenaStringsLambda {
         palavras.forEach(s -> System.out.println(s));
 
 //        palavras.sort(Comparator.comparing(s -> s.length()));
-        palavras.sort(Comparator.comparing(String::length); // exatamente igual à linha superior
+        palavras.sort(Comparator.comparing(String::length)); // exatamente igual à linha superior
         System.out.println(palavras);
     }
 }

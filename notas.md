@@ -27,7 +27,12 @@
   * [Sets](#sets)
   * [LinkedHashSet](#linkedhashset)
   * [TreeSet](#treeset)
+  * [Hashmap](#hashmap)
   * [Notas adicionais](#notas-adicionais-1)
+- [Módulo 3 - Java Moderno e TDD](#m-dulo-3---java-moderno-e-tdd)
+  * [Default Methods](#default-methods)
+  * [Method References](#method-references)
+  * [Notas adicionais](#notas-adicionais-2)
 
 ---
 
@@ -129,7 +134,7 @@ Para os casos em que uma expressão lambda apenas chama um método existente, é
 Ex.: em vez de:<br>
 `(s1, s2) -> s1.length().compare(s2.length)`<br>
 Poderia-se usar:<br>
-`(s1, s2) -> String::lenght`
+`(s1, s2) -> String::length`
 
 ### Notas adicionais
 * 
