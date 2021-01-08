@@ -136,6 +136,8 @@ Ex.: em vez de:<br>
 Poderia-se usar:<br>
 `(s1, s2) -> String::length`
 
+### Streams
+
 ### Notas adicionais
 * 
 
