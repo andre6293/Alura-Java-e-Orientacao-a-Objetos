@@ -1,4 +1,4 @@
-# Java e Orientação a Objetos (em curso)
+# Java e Orientação a Objetos [Certificado](https://cursos.alura.com.br/degree/certificate/194c4ae4-72fc-49a8-be27-813002b926d8)
 ## Alura
 
 ### [Módulo 1 - Linguagem Java e Orientação a Objetos](https://github.com/andre6293/Alura-Java-e-Orientacao-a-Objetos/tree/main/1%20-%20Linguagem%20Java%20e%20Orienta%C3%A7%C3%A3o%20a%20Objetos)
@@ -15,7 +15,7 @@
 
 ### [Módulo 3 - Java moderno e TDD](https://github.com/andre6293/Alura-Java-e-Orientacao-a-Objetos/tree/main/3%20-%20Java%20moderno%20e%20TDD)
   * Recursos do Java 8 ([Curso](https://cursos.alura.com.br/course/java8-lambdas) | [Certificado](https://cursos.alura.com.br/certificate/96e9e165-9670-4757-95f9-ffd550002aaf))
-  * TDD com JUnit ([Curso](https://cursos.alura.com.br/course/tdd) | **em curso**)
+  * TDD com JUnit ([Curso](https://cursos.alura.com.br/course/tdd) | [Certificado](https://cursos.alura.com.br/certificate/001bab96-3a63-4d3b-ac7a-5ab93bec54ea))
 
 ---
 Andre Pinto (dez 20 - jan 21)

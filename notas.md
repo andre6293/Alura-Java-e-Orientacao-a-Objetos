@@ -136,10 +136,13 @@ Ex.: em vez de:<br>
 Poderia-se usar:<br>
 `(s1, s2) -> String::length`
 
-### Streams
+### TDD
+Primeiro são implementados os testes das novas funcionalidades que serão incluídas no projeto. Em seguida desenvolve-se o código.
 
-### Notas adicionais
-* 
+### Anotações @Before, @After, @BeforeClass e @AfterClass
+A anotação @Before garante que antes de inicializar cada um dos testes, será executado o método anotado. Similarmente a anotação @After significa que o método anotado será executado *após* cada teste.
+Métodos anotados com @BeforeClass são executados apenas uma vez, antes de todos os métodos de teste. E os métodos anotados com @AfterClass, por sua vez, são executados uma vez, após a execução do último método de teste da classe.
+
 
 ---
 Andre Pinto
