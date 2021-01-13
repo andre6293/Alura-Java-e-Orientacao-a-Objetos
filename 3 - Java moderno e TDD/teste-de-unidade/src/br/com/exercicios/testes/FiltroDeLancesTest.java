@@ -91,5 +91,5 @@ public class FiltroDeLancesTest {
                 new Lance(joao, 3500)));
 
         assertEquals(0, resultado.size());
-    }:q
+    }
 }

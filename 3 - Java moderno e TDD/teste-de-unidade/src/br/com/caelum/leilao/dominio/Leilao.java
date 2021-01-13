@@ -1,5 +1,7 @@
 package br.com.caelum.leilao.dominio;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -15,7 +17,28 @@ public class Leilao {
 	}
 	
 	public void propoe(Lance lance) {
-		lances.add(lance);
+		int total = quantidadeDeLancesDoUsuario(lance.getUsuario());
+
+		if (this.lances.isEmpty() || podeDarLance(lance.getUsuario()))
+			lances.add(lance);
+	}
+
+	private boolean podeDarLance(Usuario usuario) {// evita mais do que cinco lances por usuário
+		return !usuario.equals(ultimoLance().getUsuario()) // evita lances em sequência por um mesmo usuário
+				&& quantidadeDeLancesDoUsuario(usuario) < 5;
+	}
+
+	private int quantidadeDeLancesDoUsuario(Usuario usuario) {
+		int total = 0;
+
+		for (Lance l: lances) {
+			if (l.getUsuario().equals(usuario)) total++;
+		}
+		return total;
+	}
+
+	private Lance ultimoLance() {
+		return this.lances.get(lances.size() - 1);
 	}
 
 	public String getDescricao() {
@@ -26,6 +49,4 @@ public class Leilao {
 		return Collections.unmodifiableList(lances);
 	}
 
-	
-	
 }

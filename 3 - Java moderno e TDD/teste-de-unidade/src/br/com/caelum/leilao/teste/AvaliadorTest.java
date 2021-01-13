@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class TesteDoAvaliador {
+public class AvaliadorTest {
     
     @Test
     public void deveEntenderLancesEmOrdemCrescente() {
