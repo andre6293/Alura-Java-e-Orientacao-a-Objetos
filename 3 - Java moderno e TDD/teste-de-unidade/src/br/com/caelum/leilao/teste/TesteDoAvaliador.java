@@ -82,4 +82,5 @@ public class TesteDoAvaliador {
         assertEquals(550.0, maiores.get(1).getValor(), 0.00001);
         assertEquals(450.0, maiores.get(2).getValor(), 0.00001);
     }
+
 }
