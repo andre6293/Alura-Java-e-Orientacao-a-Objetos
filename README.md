@@ -1,4 +1,4 @@
-# Java e Orientação a Objetos [Certificado](https://cursos.alura.com.br/degree/certificate/194c4ae4-72fc-49a8-be27-813002b926d8)
+# Formação Java e Orientação a Objetos ([Certificado](https://cursos.alura.com.br/degree/certificate/194c4ae4-72fc-49a8-be27-813002b926d8))
 ## Alura
 
 ### [Módulo 1 - Linguagem Java e Orientação a Objetos](https://github.com/andre6293/Alura-Java-e-Orientacao-a-Objetos/tree/main/1%20-%20Linguagem%20Java%20e%20Orienta%C3%A7%C3%A3o%20a%20Objetos)
