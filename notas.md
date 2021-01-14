@@ -32,7 +32,8 @@
 - [Módulo 3 - Java Moderno e TDD](#m-dulo-3---java-moderno-e-tdd)
   * [Default Methods](#default-methods)
   * [Method References](#method-references)
-  * [Notas adicionais](#notas-adicionais-2)
+  * [TDD](#tdd)
+  * [Anotações @Before, @After, @BeforeClass e @AfterClass](#anota--es--before---after---beforeclass-e--afterclass)
 
 ---
 
