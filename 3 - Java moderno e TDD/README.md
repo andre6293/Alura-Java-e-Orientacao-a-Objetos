@@ -9,7 +9,7 @@
 * A nova API de datas
  
 
-## TDD com JUnit (TO-DO)
+## TDD com JUnit
 * Começando com testes de unidade
 * Testando o que realmente é necessário
 * Praticando Test-Driven Development (TDD)
